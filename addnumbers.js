@@ -4,7 +4,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-function  addNumbers (sum, numsLeft, completionCallback) {
+function addNumbers (sum, numsLeft, completionCallback) {
     if (numsLeft > 0) {
         rl.question("Give me a num", (response) => {
             parseInt(response) + sum;
